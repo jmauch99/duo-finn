@@ -3,8 +3,8 @@
 
 create table if not exists public.membros (email text primary key);
 insert into public.membros (email) values
-  ('EMAIL_DO_JAMES@exemplo.com'),
-  ('EMAIL_DA_BRUNA@exemplo.com')
+  ('jmauch99@gmail.com'),
+  ('bruna.bisposouza@uni9.edu.br')
 on conflict do nothing;
 
 -- uma linha guarda o estado inteiro do app; "rev" evita que um sobrescreva o outro sem perceber
