@@ -1,0 +1,4 @@
+.DS_Store
+*.bak
+backup*.json
+duo-finn-backup-*.json
